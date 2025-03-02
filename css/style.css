@@ -291,3 +291,109 @@ how to remove the virtical space around the range input in IE*/
 .card.is-flipped {
   transform: rotateY(180deg);
 }
+
+/* new */
+@media (min-width: 1000px) {
+  h1 {
+    font-size: 50px;
+    margin: 10px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  #gamemode {
+    font-size: 50px;
+    margin: 20px 10px;
+  }
+  button {
+    min-width: 200px;
+    min-height: 50px;
+    font-size: 1rem;
+    padding: 0.5em;
+    border: 2px solid white;
+  }
+  input[type="range"] {
+    width: 60%;
+  }
+  :root {
+    --cards-width: 200px;
+  }
+  .scene {
+    width: 200px;
+    height: 340px;
+  }
+  #main {
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 80px;
+    /* max-width: 900px; */
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+  }
+  #countdownContainer {
+    margin-top: 10%;
+    font-size: 30px;
+  }
+  #cardsContainer {
+    margin-top: 10px;
+  }
+  #topbar {
+    font-size: 30px;
+    padding: 10px;
+  }
+  #standardSettingsActive {
+    font-size: 1rem;
+    margin-top: 15px;
+  }
+  #cardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-fan {
+    margin: 5px;
+  }
+  body {
+    min-height: 100vh;
+  }
+  #main {
+    width: 90%;
+    max-width: 1200px;
+    min-width: 600px;
+    height: auto;
+  }
+  #countdownContainer {
+    margin-top: 5%;
+  }
+  button {
+    background-color: #1a252f;
+  }
+
+  input[type="range"] {
+    height: 20px;
+  }
+  input[type="range"]::-webkit-slider-runnable-track {
+    height: 20px;
+  }
+  input[type="range"]::-webkit-slider-thumb {
+    height: 20px;
+  }
+  input[type="range"]::-moz-range-track {
+    height: 20px;
+  }
+  input[type="range"]::-moz-range-thumb {
+    height: 20px;
+  }
+  input[type="range"]::-ms-track {
+    height: 20px;
+  }
+  input[type="range"]::-ms-thumb {
+    height: 20px;
+  }
+  .row {
+    height: 20px;
+  }
+}
